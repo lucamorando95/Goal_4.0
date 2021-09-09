@@ -1,0 +1,59 @@
+
+###### PARAMTERS RELATIVE TO SOLAR_FLIGHT_CONTROL_SIM.cpp
+z_des: 15
+initial_state: 0
+initial_enter_state: 0
+
+#Enable velocity control along the solar array 
+
+# Desired Navigation Linear Velocity
+desired_navigation_velocity: 0.0
+
+#Abilità controllo in velocità durante la navigazione 
+enable_velocity_navigation_control_flag: true
+
+
+#Enable take is true if the drone starft in autonomous way
+enable_take_off: false
+
+#inizializazzione filto di Kalman 
+desired_waiting_KF_init_it: 150
+counter_user_control: 40
+
+#GIMBAL Desired Yaw and Pitch angles
+gimbal_pitch_des: -M_PI/2
+
+#Flag to activatre the altitude control via images
+control_altitude_by_image: false
+
+#Flag to activate the height control via the sonar sensor
+control_altitude_on_heigth_sensor: false
+sensor_fixed_altitude: false #true quando si vuole che altitudine faccia riferimento per tutto il volo a desired_laser_heigth
+                             #false quando l'altitudine fa riferimento a quella decisa dall'utente all'inizio di ogni vela
+desired_laser_heigth: 15
+
+#Flag to activate the parameters Optimization (Required a True Fag also in the RGB detection alg config file)
+Detection_param_Optimization_enabled: false
+
+
+#Place true this flag in Predosa Experiment when only a single array is inspected 
+use_only_two_fixed_waypoints_for_a_single_array_inspection: true
+waypoints_lat: [44.7810029, 44.780996]
+waypoints_lon: [8.639929, 8.641029]
+
+#Desired folder name to save txt data 
+desired_txt_folder_name: "Exp_1"
+
+
+
+
+#### only for testing 
+KP_Y: 1.5
+KD_Y: 0.8 #0.8
+KI_Y: 0.6 #0.6
+
+KP_Z: 1.4
+KD_Z: 0.5
+KI_Z: 0.1
+
+

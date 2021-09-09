@@ -1,0 +1,11 @@
+
+###### PARAMTERS RELATIVE TO SOLAR_FLIGHT_CONTROL_SIM.cpp
+XT2_FOV_angle_1: 45
+XT2_FOV_angle_2: 37
+Overlap: 80
+
+Mission_enabled: true
+
+#Folder where to save the file 
+folder_name: "Exp_2"
+

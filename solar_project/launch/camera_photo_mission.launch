@@ -1,0 +1,9 @@
+<launch>
+ <node pkg="solar_project" type="take_overlapped_photos" name="take_overlapped_photos" output="screen"/>
+ 
+ 
+ <group ns="camera_mission_param">
+      <rosparam file="$(find solar_project)/config/camera_mission_param.yaml" />
+ </group>
+</launch>
+

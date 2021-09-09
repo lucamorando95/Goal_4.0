@@ -1,0 +1,23 @@
+<launch>
+ <node pkg="solar_project" type="solar_flight_control" name="solar_flight_control" output="screen"/>
+ 
+ <node pkg="solar_project" type="wait_for_user_keyboard_input.py" name="wait_user_key_input" output="screen"/>
+
+
+ 
+
+<!-- OVERLAPPED PHOTOS -->
+<!--node pkg="solar_project" type="take_overlapped_photos" name="take_overlapped_photos" output="screen"/-->
+ 
+ <!-- OVERLAPPED PARAMS -->
+ <!-- group ns="camera_mission_param">
+      <rosparam file="$(find solar_project)/config/camera_mission_param.yaml" />
+ </group -->
+
+ <!-- SOLAR PARAMS -->
+ <group ns="solar_param">
+      <rosparam file="$(find solar_project)/config/solar_flight_params.yaml" />
+ </group>
+</launch>
+
+

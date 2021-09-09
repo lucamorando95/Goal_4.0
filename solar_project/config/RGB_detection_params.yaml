@@ -1,0 +1,60 @@
+
+###### PARAMTERS RELATIVE TO RGB detection
+th3: 1500  #Minimum Cluster Area
+th4: 0.01  #ApproxPoly DP
+th5: 70000 #Area oltre il quale il cluster è unico
+th6: 0.5  #Magnitude value for clustering
+
+#Parameters relative to Optimazation and Mtrice Link
+#Matrice = True --> compare line centrale al frame per allineamento
+#               --> calcola heigth drone mantenendo altitudine visiva (useless)
+Matrice: False
+
+#True se RGB detection deve ricevere i parametri ottimizzati
+parameters_optimization: False #True
+
+XT2_FOV: [45, 37] #espressa in gradi
+
+#HSV DECODIFICATION
+#---> MINIMUM VALUES 
+H_MIN: 90 #70 #70
+S_MIN: 30 #30 #80
+V_MIN: 10
+
+H_MAX: 255 #140 #190 #255 #255 #180
+S_MAX: 180
+V_MAX: 220
+
+#SIMULAATION PARAM
+#90, 30, 10
+#255, 180, 220
+
+#Switch from simulation to reality
+simulation_mode_enabled: True
+
+
+#Parfamters for navigation in critical condition inn simulation 
+
+#H_MIN: 53 #50 #90 #70 #70
+#S_MIN: 4 #20 #30 #80
+#V_MIN: 103 #70 #70 #10
+
+
+#Parameters real RGB solar array predosa 
+#H_MIN: 60 #90 #70 #70
+#S_MIN: 80 #30 #80
+#V_MIN: 130 #70 #10
+
+#H_MAX: 180 #140 #140 #190 #255 #255 #180
+#S_MAX: 170
+#V_MAX: 250 #220 #130
+
+#05 August Test Pedrosa Parameters 
+#H_MIN: 90 
+#S_MIN: 80 
+#V_MIN: 10
+
+#H_MAX: 140 
+#S_MAX: 170
+#V_MAX: 130
+

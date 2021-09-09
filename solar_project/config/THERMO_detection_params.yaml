@@ -1,0 +1,18 @@
+##### Parameters relative to Thermo Detetction
+th_0: 125.547    #Mean Intensity value
+th_1: [80, 140] #[105, 250] #[80, 140] #[180, 255] #Intensity Range
+th_2: 6 #6         #Distance Matrix Ra
+th_3: 5000        #Minimum Area Value
+th_4: 0.05        #ApproxPolyDp Value
+
+XT2_FOV: [45, 37] 
+image_resize: 70
+
+parameters_optimization_enabled: False
+
+#Switch from simulation to reality
+simulation_mode_enabled: True
+
+#05 August Parameter test pedrosa
+#th_1: [67, 190] 
+#th_2: 6 
