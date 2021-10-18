@@ -31,11 +31,13 @@ The use of this software in simulation is described in this repository [USE in S
  export ROS_HOSTNAME=ip_manifold
  export ROS_MASTER_URI=http://ip_manifold:11311/
  ```  
+ 
+ // Non piu necessaria questa parte -----------
 * Define the IP of the manifold as loopback address typing the command:
  ```console
 mettere comando su quaderno rosso
  ```  
-
+-----------------------------------------------
 * On the external PC modyfing the file *.bashrc* as follow:
  ```console
  export ROS_IP=ip_external_PC
@@ -53,8 +55,20 @@ mettere comando su quaderno rosso
  
  
 **Launch script**
+The launch of the all scripts is completely managed by the file ...sh. 
+Open a terminal. 
+Navigate to ........ .sh on the external PC and launch the file ..... .sh
+```console
+ cd .../../..
+ chmod +x ... .sh
+ ./... .sh
+ ```  
+ 
+Follow the instruction that appears on the terminal. 
+The automatic script laucnh if desired all the scripts that permits to safely fligth the UAV in a real environment.
+ 
+ The Required launch files execute by the autonomatic ...sh script are:
 
-On the external PC:
 * Run the DJI OSDK ROS: 
  ```console
  roslaunch dji_osdk_ros dji_osdk_node.launch
@@ -170,3 +184,7 @@ Two waypoints separated by a distance equal to the length of a single PV array m
 * When the drone has navigated for a distance equal to the distance between the two given waypoints, it start to hover in place and release the control to the user. 
 * The shooting task is automatic managed by the UAV taking into account the heigth, the overlap and the drone velocity.
 * The pitch and the yaw of the camera is automatically managed by the UAV.
+* The drone starts its inspection only if the user type the number of the PV array that is going to be inspected. (the Number must be typed in the terminal that managed the solar_fligth_control task).
+* The drone stops when: i) the end of the PV array is reached, ii) the user press a key. 
+
+If the shooting task is executed, the user can find a file with the information of every single photo taken in the following directory in the Manifold: 
