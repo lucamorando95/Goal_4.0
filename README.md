@@ -6,7 +6,7 @@ This repository contains the Goal 4.0 application, available for the aircraft DJ
 In this repository it is described how to install and to run the available code on the Manifold 2 to use *only* in real test. 
 The use of this software in simulation is described in this repository [USE in Simulation]().
 
- 
+
 # How to Install the Software 
 * Navigate to [DJI Official page](https://developer.dji.com/onboard-sdk/documentation/introduction/how-to-use-OSDK.html) and istall the DJI OSDK and the DJI ROS OSDK.
 * Install ROS kinetic if required from [Install ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
@@ -31,40 +31,19 @@ The use of this software in simulation is described in this repository [USE in S
  export ROS_HOSTNAME=ip_manifold
  export ROS_MASTER_URI=http://ip_manifold:11311/
  ```  
- 
- // Non piu necessaria questa parte -----------
-* Define the IP of the manifold as loopback address typing the command:
- ```console
-mettere comando su quaderno rosso
- ```  
------------------------------------------------
-* On the external PC modyfing the file *.bashrc* as follow:
- ```console
- export ROS_IP=ip_external_PC
- export ROS_HOSTNAME=ip_external_PC
- export ROS_MASTER_URI=http://ip_manifold:11311/
- ```  
 
-* Turn on the UAV in a safe area and connect the external PC to the manifold via ssh. In each terminal open a screen session with the command:
- ```console
- screen -S name_of_the_session
- ```
- check all the screen available command in [screen](https://linuxize.com/post/how-to-use-linux-screen/)
- 
- Start a screen session permits to the aircraft to continue to fly in autonomous way also if the connection is lost. 
- 
  
 **Launch script**
 The launch of the all scripts is completely managed by the file ...sh. 
-Open a terminal. 
-Navigate to ........ .sh on the external PC and launch the file ..... .sh
-```console
- cd .../../..
- chmod +x ... .sh
- ./... .sh
- ```  
- 
-Follow the instruction that appears on the terminal. 
+
+* Make sure the Manifold and the Remote PC are connected via Wi-Fi Network.
+* Open the folder in Remote PC were the file launcher.sh is contained.
+* Open a terminal inside the folder.
+* Launch the file typing chmod +x ... .sh  and ./launcher.sh 
+
+Follow the Procedure suggested by the terminal and type yes or no for each selection.
+The terminal provide to you a connection with the Manifold and it launch the desired script.
+
 The automatic script laucnh if desired all the scripts that permits to safely fligth the UAV in a real environment.
  
  The Required launch files execute by the autonomatic ...sh script are:
@@ -84,7 +63,7 @@ The automatic script laucnh if desired all the scripts that permits to safely fl
  ```   
  * Start the RGB acquisition image node:
  ```console
- roslaunch solar_project RGB_visual_ros_sim_reordered
+ roslaunch solar_project RGB_visual_ros_sim_reordered.launch
  ```   
 * Start the Thermo acquisition image node:
  ```console
@@ -107,20 +86,133 @@ The automatic script laucnh if desired all the scripts that permits to safely fl
 rosrun solar_panel_project optimization_images_visualizer
 ``` 
 Once the optimization is completed the script required the user intervention to select the desired image. 
+The User has to type 1 or 2 inside the RGB and Thermal bash (farlo con luca)
 
 
+!!!!! NOTE 
+If you want to use the NN script instead of the parameter one on the thermal images you have to do:
+* Type NO when the automatic script suggest to launch the thermal detection node.
+* If you commit a mistake and you type YES: 1) Don't insert the password in the new terminal 2) Type Yes when it ask if the script is coorectly launched 
+
+In this way the NN detection script is automatically selected.
+
+If the NN detection script does not start properly:
+* Open a terminal manually on the external PC
+* Connect to the Manifold via ssh dji@<ipmanifold>
+```console
+cd ..
+cd dji_ws/devel/lib/solar_project
+screen -S NN
+./make_mask config.json
+ ```  
+This sequence launch the script for the detection via the NN.
+
+In order to use the detected image is required to launch another script:
+```console
+cd ..
+screen -S NN_det
+roslaunch solar_project termo_cluster_NN.launch
+```  
+
+!! The image are not visible when the script are launched automatically but are visible if the script are launched manually
+ 
+**HOW To Launch The Script Manually for the Real Fligth**
+ 1) Launch the SDK Node:
+ ```console
+ssh dji@<ip_manifold>
+screen -S sdk
+roslaunch dji_osdk_ros dji_sdk_node.launch 
+ ``` 
+ 
+2)Launch the Camera:
+ ```console
+ssh dji@<ip_manifold>
+screen -S camera
+rosrun solar_project start_camera_stream
+ ```  
+
+3) Launch the Control:
+ ```console
+ssh dji@<ip_manifold>
+screen -S control
+roslaunch solar_project solar_fligth_control.launch
+ ``` 
+4) Launch the RGB Detection:
+ ```console
+ssh dji@<ip_manifold>
+screen -S RGB
+roslaunch solar_project RGB_visual_ros_sim_reordered.launch
+ ```  
+If you want 
+5) Launch the Thermal Detection:
+ ```console
+ssh dji@<ip_manifold>
+screen -S thermo
+roslaunch solar_project termo_cluster_regression_reorganized.launch
+ ``` 
+
+If you want 
+5) Launch the NN Thermal Detection:
+```console
+cd ..
+cd dji_ws/devel/lib/solar_project
+screen -S NN
+./make_mask config.json
+ ```  
+This sequence launch the script for the detection via the NN.
+
+In order to use the detected image is required to launch another script:
+```console
+cd ..
+screen -S NN_det
+roslaunch solar_project termo_cluster_NN.launch
+```  
+ 
+6) Launch the Velocity Control
+ ```console
+ssh dji@<ip_manifold>
+screen -S vel
+rosrun solar_project select_desired_vel.py
+ ``` 
+
+7) Launch the camera Photo Mission.
+ ! Every time you launch it ypu have to clear the sd or to check the number of the last photo
+ ```console
+ssh dji@<ip_manifold>
+screen -S photo
+roslaunch solar_project camera_photo_mission.launch
+ ```  
+
+To stop the execution of one terminal press: cntrl+C
+
+The screen commands avoid the drone to stop during fligth when it disconnects from the JPAntenna.
+It is required to launch it only a time:
+Example: If you run the script with the procedure described before and the you stop a script with cntrl + C, you can simply relaunch it pressing up_key then start or relaunching it via roslaunch or rosrun.
+If ypu close the terminal on your laptopt then, at the next connection, before launching other scripts, to quit from all the active Screen session.
+ At this purpose verify on a terminal connected to the drone the active screen session typing:
+ ```console
+ssh dji@<ip_manifold>
+screen -ls 
+ ``` 
+ Quit From each screen session typing
+ ```console
+screen -XS <screen session> quit 
+ ```  
 **Parameters to set before launching the application**
 
 In /src/solar_project/config are present all the configuration files, which defines various functionalities of the software.
+
+1) To Use the Desired Velocity and the single Array mode: 
+
 * In solar_flight_params.yaml (only some parameters are described here, see the comments in the file for additional information):
 ```
  enable_velocity_navigation_control_flag: true   // Velocity control enabled, if not the predictive control based on carrot chasing is used
  enable_take_off: false    //If true, the take of is autonomous, then the UAV navigates automatically to the first waypoints and it starts the mission.
  desired_waiting_KF_init_it: waiting_iteration   //select the number of iteration required to initialize the KF
  control_altitude_on_heigth_sensor: false  //USE ONLY UNDER 7 METERS OF HEIGTH --> DANGEROUS
- Detection_param_Optimization_enabled: true //If true, setup the code to wait the optimization results before the KF initialization.
+ Detection_param_Optimization_enabled: false //If true, setup the code to wait the optimization results before the KF initialization.
  use_only_two_fixed_waypoints_for_a_single_array_inspection: true  //Create a barrier knowing only two waypoints
- 
+ simulation_mode: false
 
 ```
 
@@ -129,6 +221,7 @@ In /src/solar_project/config are present all the configuration files, which defi
 Matrice: False //Keep it False
 parameters_optimization: False   //If True the script wait the results of the optimization task and the ask teh user to select the desired image typing 1 or 2 on the keyboard 
 XT2_FOV: [45, 37] #Field of vuew of the XT2 camera 
+focus_image: True
 //HSV parameters to be set, reading related paper
 H_MIN: 90 
 S_MIN: 30
@@ -162,6 +255,129 @@ Overlap: 80
 
 Mission_enabled: true //If the task is active 
 ```
+
+
+2) To Use the Desired Velocity and the Four Array Mode:
+
+* In solar_flight_params.yaml (only some parameters are described here, see the comments in the file for additional information):
+```
+ enable_velocity_navigation_control_flag: true   // Velocity control enabled, if not the predictive control based on carrot chasing is used
+ enable_take_off: false    //If true, the take of is autonomous, then the UAV navigates automatically to the first waypoints and it starts the mission.
+ desired_waiting_KF_init_it: waiting_iteration   //select the number of iteration required to initialize the KF
+ control_altitude_on_heigth_sensor: false  //USE ONLY UNDER 7 METERS OF HEIGTH --> DANGEROUS
+ Detection_param_Optimization_enabled: false //If true, setup the code to wait the optimization results before the KF initialization.
+ use_only_two_fixed_waypoints_for_a_single_array_inspection: false  //Create a barrier knowing only two waypoints
+ autonomous_mission_with_manual_take_off: true
+ 
+
+```
+
+* In RGB_detection_params.yaml: 
+```
+Matrice: False //Keep it False
+parameters_optimization: False   //If True the script wait the results of the optimization task and the ask teh user to select the desired image typing 1 or 2 on the keyboard 
+XT2_FOV: [45, 37] #Field of vuew of the XT2 camera 
+focus_image: True
+//HSV parameters to be set, reading related paper
+H_MIN: 90 
+S_MIN: 30
+V_MIN: 10 
+
+H_MAX: 255
+S_MAX: 180
+V_MAX: 220 
+
+simulation_mode_enabled: False #True if the Matrice is connected to DJI Assistant 
+
+```
+* In THERMO_detection_params.yaml: 
+```
+// Parameters to be set by the user --> read paper
+th_2: 8 #6         #Distance Matrix Ra
+th_3: 5000        #Minimum Area Value
+th_4: 0.05        #ApproxPolyDp Value
+
+parameters_optimization_enabled: False //If True the script wait the results of the optimization task and the ask teh user to select the desired image typing 1 or 2 on the keyboard 
+```
+
+
+
+**How to Setup The Parameters for the first fligth:**
+For the first fligth of the day could be required to set up the perception parameters inside the config file  RGB_detection_params.yaml and THERMO_detection_params.yaml.
+1) Connect the Manifold and the external computer to the JPANTENNA
+2) Open a terminal and write: 
+ ```console
+ssh dji@<ip_manifold>
+ ``` 
+ The password is dji
+4) Launch the ROS master on the manifold 
+ ```console
+roslaunch dji_osdk_ros dji_sdk_node.launch
+ ``` 
+6) On the external computer open a terminal and check if it is possible to see all teh topic published by the drone.
+```console
+rostopic list
+ ``` 
+
+7) On the external PC open another terminal and launch the RGB detection node
+ ```console
+ssh dji@<ip_manifold>
+roslaunch solar_project RGB_visual_ros_sim_reordered.launch
+ ``` 
+8) On the external PC subscribe to the topic /camera_vision_RGB_output visualizing the images 
+ ```console
+rosrun image_view image_view image:/camera_vision_RGB_output 
+ ``` 
+or 
+ ```console
+rosrun image_view image_view image:/OVTA_DEBUG_HSV_image
+ ``` 
+
+The first image streaming permits to visualize the green rectangle around the array if correctly detected.
+The second image streaming permits to visualize the output of the HSV transormation
+
+NOTE!!!!
+Modify the RGB_detection_params.yaml with the HSV value relative to the array area.
+The value are visible on the bottom left of the figure created by the command image_view.
+Move the mouse on the array area on the image and visualize the values.
+B --> H
+G --> S
+R --> V
+
+A range is required to correctly config the perception. Check the max value in the brighets area in the array image and the min value in the darkest area.
+
+------ Example of Correctly defined Parameters:
+5 August:
+H_MIN: 90
+S_MIN: 80 
+V_MIN: 10
+
+H_MAX: 140
+S_MAX: 170
+V_MAX: 130
+
+
+29 October:
+H_MIN: 0
+S_MIN: 10 
+V_MIN: 120
+
+H_MAX: 180
+S_MAX: 140
+V_MAX: 255
+
+12 Novemeber:
+H_MIN: 0
+S_MIN: 30 
+V_MIN: 150
+
+H_MAX: 190
+S_MAX: 120
+V_MAX: 255
+
+
+
+
 
 
 
