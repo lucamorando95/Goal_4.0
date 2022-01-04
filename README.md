@@ -37,9 +37,9 @@ The use of this software in simulation is described in this repository [USE in S
 The launch of the all scripts is completely managed by the file ...sh. 
 
 * Make sure the Manifold and the Remote PC are connected via Wi-Fi Network.
-* Open the folder in Remote PC were the file launcher.sh is contained.
+* Open the folder in Remote PC were the file launch_solar_project.sh is contained.
 * Open a terminal inside the folder.
-* Launch the file typing chmod +x ... .sh  and ./launcher.sh 
+* Launch the file typing chmod +x ... .sh  and ./launch_solar_project.sh 
 
 Follow the Procedure suggested by the terminal and type yes or no for each selection.
 The terminal provide to you a connection with the Manifold and it launch the desired script.
