@@ -38,21 +38,22 @@ The launch of the all scripts is completely managed by the file ...sh.
 
 * Make sure the Manifold and the Remote PC are connected via Wi-Fi Network.
 * Open the folder in Remote PC were the file launch_solar_project.sh is contained.
-* Open a terminal inside the folder.
-* Launch the file typing chmod +x ... .sh  and ./launch_solar_project.sh 
+* Open a terminal inside the folder. (click with rigth key on the mouse)
+* Launch the file typing in the new terminal:
+* type chmod +x launch_solar_project.sh  [press start]
+* type ./launch_solar_project.sh [press start]
 
 Follow the Procedure suggested by the terminal and type yes or no for each selection.
 The terminal provide to you a connection with the Manifold and it launch the desired script.
 
-The automatic script laucnh if desired all the scripts that permits to safely fligth the UAV in a real environment.
+The automatic script launch if desired all the scripts that permits to safely fligth the UAV in a real environment.
  
- The Required launch files execute by the autonomatic ...sh script are:
+ The Required launch files execute by the autonomatic launch_solar_flight.sh script are:
 
 * Run the DJI OSDK ROS: 
  ```console
  roslaunch dji_osdk_ros dji_osdk_node.launch
  ```  
-
 * Run the flight control script and the keyboard record script:
 ```console
  roslaunch solar_project solar_flight_control.launch 
