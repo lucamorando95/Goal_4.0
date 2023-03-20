@@ -93,7 +93,7 @@ The User has to type 1 or 2 inside the RGB and Thermal bash.
 !!!!! NOTE 
 If you want to use the NN script instead of the parameter one on the thermal images you have to do:
 * Type NO when the automatic script suggest to launch the thermal detection node.
-* If you commit a mistake and you type YES: 1) Don't insert the password in the new terminal 2) Type Yes when it ask if the script is coorectly launched 
+* If you commit a mistake and you type YES: 1) Don't insert the password in the new terminal 2) Type Yes when it asks if the script is correctly launched 
 
 In this way the NN detection script is automatically selected.
 
@@ -106,9 +106,9 @@ cd dji_ws/devel/lib/solar_project
 screen -S NN
 ./make_mask config.json
  ```  
-This sequence launch the script for the detection via the NN.
+This sequence launches the scripts for the detection via the NN.
 
-In order to use the detected image is required to launch another script:
+In order to use the detected images is required to launch another script:
 ```console
 cd ..
 screen -S NN_det
@@ -378,7 +378,7 @@ V_MAX: 255
 
 **General description of the Aircraft behaviour during a flight:**
 1) Complete autonomous an flight:
-The first and the last waypoints of each inspected PV array must be upload to the software expressed in latitude and longitude.
+The first and the last waypoints of each inspected PV array must be uploaded to the software expressed in latitude and longitude.
 
 * The drone takes off in a complete autonomous way. It reaches the desired altitude before starting the navigation to the first waypoint.
 * The drone initializes the EKF and then it starts the navigation along the PV array.
