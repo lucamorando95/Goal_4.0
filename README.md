@@ -4,7 +4,7 @@ PV monitoring via autonomous UAV
 This repository contains the Goal 4.0 application, available for the aircraft DJI Matrice 210 V2 and DJI Matrice 300 equipped with a Manifold 2G or Manifold 2C.
 
 In this repository it is described how to install and to run the available code on the Manifold 2 to use *only* in real tests. 
-The use of this software in simulation is described in this repository [USE in Simulation]().
+If you need the Ros Simulation pluging to test the software on DJI based simulation, please download the code from this repository [USE in Simulation](https://github.com/lucamorando95/Goal_4.0/tree/plugin_simulator).
 
 
 # How to Install the Software 
