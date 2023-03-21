@@ -1,0 +1,8 @@
+<launch>
+<node pkg="solar_panel_project" type="RGB_visual_ros_sim.py" name="RGB_visual_ros_sim" output="screen"/>
+
+<group ns="RGB_params">
+      <rosparam file="$(find solar_panel_project)/config/RGB_detection_params.yaml" />
+
+ </group>
+</launch>

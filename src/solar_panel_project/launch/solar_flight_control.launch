@@ -1,0 +1,23 @@
+<launch>
+   
+ <node pkg="solar_panel_project" type="solar_fligth_control_sim" name="solar_fligth_control_sim" output="screen" />
+ 
+
+ <param name="robot_description"  command="cat '$(find box_urdf)/urdf/camera_box.urdf'"/>
+ <node name="spawn_robot_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model camera_box"/>
+
+ <param name="robot_description_RGB"  command="cat '$(find box_urdf)/urdf/camera_box_RGB.urdf'"/>
+ <node name="spawn_robot_urdf_RGB" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description_RGB -model camera_box_RGB"/> 
+ 
+ <group ns="solar_param">
+      <rosparam file="$(find solar_panel_project)/config/solar_flight_params.yaml" />
+
+
+
+
+
+
+ </group>
+</launch>
+
+

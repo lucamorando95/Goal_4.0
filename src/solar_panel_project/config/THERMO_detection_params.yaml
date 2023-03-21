@@ -1,0 +1,11 @@
+##### Parameters relative to Thermo Detetction
+th_0: 125    #Mean Intensity value
+th_1: [160, 250] #Intensity Range
+th_2: 5      #Distance Matrix Range 
+th_3: 5000        #Minimum Area Value
+th_4: 0.05        #ApproxPolyDp Value
+
+image_resize: 70
+
+parameters_optimization_enabled: False
+

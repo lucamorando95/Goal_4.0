@@ -1,0 +1,8 @@
+<launch>
+<node pkg="solar_panel_project" type="termo_cluster_regression_ros_sim.py" name="termo_cluster_regression_ros_sim" output="screen"/>
+
+<group ns="THERMO_params">
+      <rosparam file="$(find solar_panel_project)/config/THERMO_detection_params.yaml" />
+
+ </group>
+</launch>

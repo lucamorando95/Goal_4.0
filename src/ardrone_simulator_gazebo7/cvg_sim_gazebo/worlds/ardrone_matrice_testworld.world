@@ -1,0 +1,2022 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <world name='default'>
+    <!-- INserisco le foto dei pannelli in gazebo come ground -->
+    
+   <!-- ########################################################## RGB TEXTURE ###############################################-->
+
+<!--############################################ TEXTURE RGB Y POSITIVE ################################### -->
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 19.4800 9.0 3.14 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55 19.4800 9.0 3.14 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 19.4800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 19.4800  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 14.8600 9.0 3.14 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55 14.8600 9.0 3.14 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 14.8600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 14.8600 9.0 3.14 0 1.57</pose>
+    </include>
+    
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 10.2400 9.0 3.14 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55 10.2400 9.0 3.14 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 10.2400  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 10.2400  9.0 3.14 0 1.57</pose>
+    </include>
+    
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 5.62 9.0 3.14 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55 5.62 9.0 3.14 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 5.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 5.62  9.0 3.14 0 1.57</pose>
+    </include>
+    
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 5.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+   
+
+
+
+
+<!-- ############################################# TEXTURE RGB NEGATIVE Y ########################################################### -->
+
+ <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -7.92 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -7.92 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -7.92  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -7.92  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -7.92  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -12.540  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -12.540  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -12.540 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+  
+  <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -17.1600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -17.1600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -17.1600  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -17.1600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -21.7800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -21.7800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -21.7800  9.0 3.14 0 1.57</pose>
+    </include>
+    
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -21.7800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -26.4000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -26.4000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -26.4000  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -26.4000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -31.0200  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -31.0200  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -31.0200  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -31.0200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -35.6400  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -35.6400  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -35.6400  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -35.6400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -40.2600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -40.2600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -40.2600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -40.2600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -44.8800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -44.8800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -44.8800  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -44.8800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -49.5000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -49.5000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -49.5000  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -49.5000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -54.1200  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -54.1200  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -54.1200  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -54.1200 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+ -
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -58.7400  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -58.7400  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -58.7400  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -58.7400 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+
+<include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -63.3600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -63.3600  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -63.3600  9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -63.3600 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -67.9800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -67.9800  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+      <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -67.9800 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -72.6000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 -72.6000  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>28.6450 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -72.6000 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -72.6000 9.0 3.14 0 1.57</pose>
+    </include >
+
+
+
+    
+
+
+
+
+
+    
+<!-- ###################################### TEXTURE CENTRALI su cui vola il drone _____ vanno bene con le resized images ############################## -->
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 1  9.0 3.14 0 1.587</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55 1  9.0 3.14 0 1.587</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2</uri>
+      <pose>15.915 1  9.0 3.14 0 1.587</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>22.280 1.0  9.0 3.14 0 1.587</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose> 28.6450 1.0  9.0 3.14 0 1.587</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 1.0 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 1.0  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+
+
+ 
+     <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>3.185 -3.62 9.0 3.14 0 1.587</pose>
+    </include>
+    
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>9.55  -3.62 9.0 3.14 0 1.587</pose>
+    </include>
+
+   <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>15.915 -3.62  9.0 3.14 0 1.587</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2</uri>
+      <pose>22.280 -3.62 9.0 3.14 0 1.587</pose>
+    </include>
+    
+<include>
+      <uri> model://RGB_texture2</uri>
+      <pose> 28.6450 -3.62 9.0 3.14 0 1.587</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>35.0100 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>41.3750 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>47.7400 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>54.1050 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>60.4700 -3.62 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>66.8350 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>73.2000 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>79.5650 -3.62 9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>85.9300 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>92.2950 -3.62  9.0 3.14 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://RGB_texture2 </uri>
+      <pose>98.6600 -3.62  9.0 3.14 0 1.57</pose>
+    </include >
+
+
+
+
+
+
+
+
+ <!-- Decommentare in Caso non si usasse LINK con GAZEBO SIM -->
+  
+
+
+
+
+
+
+
+
+
+
+<!-- Resized thermal textures -->
+
+<!-- TEXTURE per coprire grigio di gazebo che fa svarionare l'algoritmo di detection sulle file ai lati-->
+
+
+
+<include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 19.4800 0.1 0 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55 19.4800 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 19.4800  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 19.4800  0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 14.8600 0.1 0 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55 14.8600 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 14.8600  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 14.8600  0.1 0 0 1.57</pose>
+    </include>
+    
+
+<include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 10.2400 0.1 0 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55 10.2400 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 10.2400  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 10.2400  0.1 0 0 1.57</pose>
+    </include>
+    
+
+
+<include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 5.62 0.1 0 0 1.57</pose>
+    </include>
+     
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55 5.62 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 5.62  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 5.62  0.1 0 0 1.57</pose>
+    </include>
+    
+   <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>28.6450 5.62  0.1 0 0 1.57</pose>
+    </include>
+
+   
+
+ <include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 35.01 5.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 41.375 5.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 47.74 5.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 54.10 5.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+
+ <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55  -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 -7.92  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 -7.92  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>28.6450 -7.92  0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 35.01 -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 41.375 -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 47.74 -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 54.10 -7.92 0.1 0 0 1.57</pose>
+    </include>
+
+
+<!-- Resized thermal textures sulla quale vola effett -->
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 1 0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55 1 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose>15.915 1.0  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>22.280 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose> 28.6450 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+ <include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 35.01 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 41.375 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 47.74 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 54.10 1.0 0.1 0 0 1.57</pose>
+    </include>
+
+
+
+
+
+
+     <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>3.185 -3.62 0.1 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>9.55  -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+   <include>
+      <uri> model://resized_ground_frame2 </uri>
+      <pose>15.915 -3.62  0.1 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose>22.280 -3.62 0.1 0 0 1.57</pose>
+    </include>
+    
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 28.6450 -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 35.01 -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 41.375 -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 47.74 -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+<include>
+      <uri> model://resized_ground_frame2</uri>
+      <pose> 54.10 -3.62 0.1 0 0 1.57</pose>
+    </include>
+
+
+
+<!-- resized_ground_frame1 ha dimensioni: 5.72 x 6.37 
+resized_ground_frame2 ha dimensioni: 4.72 x 6.37-->
+
+<!--P1 start : x = 0 y = 2
+P1 end: x = 12.74 y = 2
+Pframe = x=6.37, y = 2
+distanza tra i pannelli = 2.2
+panel size: 1.0
+panel length: 12.74
+-->
+
+
+
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name='bottom_ligth' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 -10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 0.9</direction>
+    </light>
+
+
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+            </friction>
+            <bounce/>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay>
+          <linear>0</linear>
+          <angular>0</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+    </model>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    
+    
+   
+   
+   
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>1.49016 -3.72367 3.62379 -2.88294e-17 0.273797 1.4042</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+  </world>
+</sdf>

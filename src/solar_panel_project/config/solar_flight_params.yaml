@@ -1,0 +1,20 @@
+
+###### PARAMTERS RELATIVE TO SOLAR_FLIGHT_CONTROL_SIM.cpp
+z_des: 10
+initial_state: 0
+enable_take_off: true
+desired_waiting_KF_init_it: 150
+control_altitude_by_image: false #True to control altitude by images 
+Detection_param_Optimization_enabled: false #True to enable parameters optimization 
+
+# Params for Panel and Waypoint confguration in Simulation
+n_panels: 4
+distance_between_panels: 2.2 
+configuration: 0
+gamma: 0.2 #//Rotational error in degree 
+delta: 0.4 #//Traslational error along x respect panel frame located in panel 1
+eta: 0.2 #//Traslational error along y
+
+
+
+

@@ -1,0 +1,6 @@
+<launch>
+<node pkg="solar_panel_project" type="optimization_task_RGB_image_visualizer.py" name="OPT_RGB_image_visualizer" output="screen"/>
+
+<node pkg="solar_panel_project" type="optimization_task_THERMO_image_visualizer.py" name="OPT_THERMO_image_visualizer" output="screen"/>
+
+</launch>

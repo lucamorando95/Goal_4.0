@@ -1,0 +1,5 @@
+[{
+  "file": "/home/lucamora/catkin_ws/src/solar_panel_project/src/Solar_drone/test_follow.cpp",
+  "directory": "/home/lucamora/catkin_ws/src/solar_panel_project/src/Solar_drone",
+  "command": "clang  -c /home/lucamora/catkin_ws/src/solar_panel_project/src/Solar_drone/test_follow.cpp -o /home/lucamora/catkin_ws/src/solar_panel_project/src/Solar_drone/test_follow.cpp.o  -I. -I.  -g -Wall"
+ }]

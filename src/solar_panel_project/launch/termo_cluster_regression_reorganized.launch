@@ -1,0 +1,12 @@
+<launch>
+<node pkg="solar_panel_project" type="termo_cluster_regression_reorganized.py" name="termo_cluster_regression_reorganized" output="screen"/>
+<node name="THERMO_image_view" pkg="image_view" type="image_view" respawn="false" output="screen">
+<remap from="image" to="/camera_vision_output" />
+</node>
+
+
+<group ns="THERMO_params">
+<rosparam file="$(find solar_panel_project)/config/THERMO_detection_params.yaml" />
+
+ </group>
+</launch>

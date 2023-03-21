@@ -1,0 +1,34 @@
+
+###### PARAMTERS RELATIVE TO RGB detection
+th3: 1500  #Minimum Cluster Area
+th4: 0.01  #ApproxPoly DP
+th5: 70000 #Area oltre il quale il cluster è unico
+th6: 0.5  #Magnitude value for clustering
+
+#Parameters relative to Optimazation and Mtrice Link
+Matrice: False #True to control altitude by images 
+parameters_optimization: False #True
+
+#HSV DECODIFICATION
+#---> MINIMUM VALUES 
+H_MIN: 5 #
+S_MIN: 20  
+V_MIN: 70
+
+H_MAX: 20 
+S_MAX: 130 
+V_MAX:  240 
+
+#Paramters in real conditions 
+
+
+
+
+#H_MIN: 90  #5 
+#S_MIN: 20     #10
+#V_MIN: 90 #5 #10
+#
+#H_MAX: 120 #255 #180
+#S_MAX: 130 #180 #180
+#V_MAX:  240 #50 #220 #130
+

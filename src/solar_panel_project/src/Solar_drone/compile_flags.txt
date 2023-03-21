@@ -1,0 +1,1 @@
+-I/home/lucamora/catkin_ws/src/solar_panel_project/src/Solar_drone
