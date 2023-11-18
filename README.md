@@ -6,6 +6,8 @@ This repository contains the Goal 4.0 application, available for the aircraft DJ
 In this repository it is described how to install and to run the available code on the Manifold 2 to use *only* in real tests. 
 If you need the Ros Simulation pluging to test the software on DJI based simulation, please download the code from this repository [USE in Simulation](https://github.com/lucamorando95/Goal_4.0/tree/plugin_simulator).
 
+The paper referred to this repository can be found at this link [paper](https://www.mdpi.com/2504-446X/6/11/347). Please cite if using the code for your application.
+
 
 # How to Install the Software 
 * Navigate to [DJI Official page](https://developer.dji.com/onboard-sdk/documentation/introduction/how-to-use-OSDK.html) and istall the DJI OSDK and the DJI ROS OSDK.
